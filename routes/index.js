@@ -118,7 +118,7 @@ router.all('/process/*', function(req, res, next){
 			'duration': timeout/1000 + 's' //duration in seconds
 
 		});
-	}, 5);
+	}, timeout);
 });
 
 
